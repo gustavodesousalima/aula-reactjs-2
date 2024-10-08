@@ -1,5 +1,4 @@
 import styles from '../../assets/styles/ComponentProps.module.css'
-
 function ComponenteProps({lugar, texto, bandeira_pais}) {
   return (
     <div className={styles.corpoProps}>

@@ -46,6 +46,11 @@ input{
     width: 30px;
 }
 
+li{
+    color: aliceblue;
+    list-style: none;
+}
+
 @media  (max-width: 768px){
     .cabecalho{
         flex-direction: column;
