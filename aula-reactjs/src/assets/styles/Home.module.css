@@ -1,0 +1,90 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90vh;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+#mala{
+    width: 350px;
+    height: 350px;
+}
+
+.blocoTexto{
+    display: flex;
+    width: 45%;
+    height: 50vh;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+}
+
+.blocoTexto h1{
+    font-size: 4rem;
+}
+
+.blocoBotao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.blocoBotao button{
+    width: 65%;
+    height: 10vh;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(83, 153, 14);
+}
+
+.blocoBotao button:hover{
+    width: 66%;
+    height: 11vh;
+    font-size: 1.4rem;
+    cursor: pointer;
+    background-color: rgb(62, 114, 11);
+}
+
+@media (max-width: 768px) {
+    
+    .home{
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .blocoTexto{
+        width: 90%;
+        gap: 20px;
+    }
+
+    .blocoTexto h1{
+        font-size: 2.5rem;
+    }
+
+    .blocoBotao button{
+        width: 80%;
+        height: 10vh;
+        font-size: 1.2rem;
+    }
+
+    .blocoBotao button:hover{
+        width: 81%;
+        height: 11vh;
+        font-size: 1.3rem;
+    }
+
+    #mala{
+        width: 250px;
+        height: 250px;
+    }
+
+}
